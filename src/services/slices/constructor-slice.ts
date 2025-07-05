@@ -15,7 +15,7 @@ const initialState: ConstructorState = {
   orderModalData: null
 };
 
-const constructorSlice = createSlice({
+export const constructorSlice = createSlice({
   name: 'constructorItems',
   initialState,
   reducers: {
